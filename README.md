@@ -1,5 +1,10 @@
 # AES-128 Side-Channel Attack Research Project
 
+![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
+![Verilog](https://img.shields.io/badge/language-Verilog-purple.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+
 A complete, end-to-end hardware security research workflow demonstrating how an unprotected RTL implementation of AES-128 is vulnerable to Side-Channel Attacks (SCA), how to formally verify that vulnerability, and how hardware countermeasures eradicate it. The project uses Verilog simulation to generate synthetic power traces and attempts key recovery using both **Correlation Power Analysis (CPA)** and **Machine Learning (Multi-Layer Perceptrons / MLP)**.
 
 ---
