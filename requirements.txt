@@ -2,16 +2,22 @@
 # Python 3.12 required (TF has no Python 3.13+ wheels)
 # Activate venv: source .venv/bin/activate
 
+# Notebooks
+jupyterlab
+
+# ML
+keras==3.13.2
+tensorflow==2.20.0
+
+# Numerics / Visualization
+matplotlib==3.10.8
+numpy==2.4.2
+
 # Simulation trace parsing
 vcdvcd==2.6.0
 
-# Numerics / visualization
-numpy==2.4.2
-matplotlib==3.10.8
 
-# ML
-tensorflow==2.20.0
-keras==3.13.2
 
-# Notebooks
-jupyterlab
+
+
+
