@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Verilog / Simulation artifacts
+*.vcd
+*.vvp
+*.out
+
+# Machine Learning & Data artifacts
+*.npy
+*.npz
+*.keras
+*.h5
+
+# OS generated files
+.DS_Store
+Thumbs.db
