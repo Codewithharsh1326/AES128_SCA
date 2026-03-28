@@ -13,6 +13,7 @@ Usage:
 import sys
 import numpy as np
 from pathlib import Path
+from typing import Tuple, List
 
 def welch_t_test(set0: np.ndarray, set1: np.ndarray) -> np.ndarray:
     """Computes Welch's t-test statistic for each time sample across two sets."""
